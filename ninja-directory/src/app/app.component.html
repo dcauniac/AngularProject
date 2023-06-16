@@ -1,0 +1,13 @@
+<header>
+  <h1>{{title}}</h1>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/directory">Directory</a></li>
+    </ul>
+  </nav>
+</header>
+<section id="main">
+  <h2>{{showMessage}}</h2>
+  <app-home (notify)="onNotifyClicked($event)">Loading</app-home> 
+</section>

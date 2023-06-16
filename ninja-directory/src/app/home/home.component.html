@@ -1,0 +1,25 @@
+<p>
+  {{homeTitle}}
+</p>
+
+<!-- <p>{{ninja.name}}</p> -->
+
+<!-- <input [value]="myString" />
+<input required =""/>
+<button (click) ="alertMe('Hi, I am Diana')">Click me </button>  -->
+
+ <label>Name:</label>
+<input [(ngModel)]="ninja.name"/>
+<label>Belt:</label>
+<input [(ngModel)]="ninja.belt"/>
+<p>{{ninja.name}}</p>
+<p>{{ninja.name}}</p>
+<p>{{ninja.belt}}</p> 
+
+
+<div class="container" (click)="onClick()">
+<button class="btn btn-info">
+  Trigger notify
+</button>
+</div>
+
